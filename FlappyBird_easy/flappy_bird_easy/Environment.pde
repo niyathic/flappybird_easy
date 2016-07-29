@@ -4,7 +4,7 @@ public class Environment {
   Tube tubeA;
   Tube tubeB;
   float tick = 0;
-  float speed = 3;
+  float speed = 2.5;
   int tubesPassed = 0;
   PFont font;
 
@@ -103,7 +103,7 @@ public class Environment {
       }
       font = loadFont("CalistoMT-32.vlw");
       textFont(font);
-      text(tubesPassed/85,10,30);
+      text(tubesPassed/43,10,30);
       fill(255,255,255);
     }
   }

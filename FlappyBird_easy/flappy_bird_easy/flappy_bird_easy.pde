@@ -54,8 +54,8 @@ public class Bird {
         this.x = x;
         this.y = y;
         yVelocity = 0;
-        yAcceleration = 0.05;
-        flapVelocity = -1.5;
+        yAcceleration = 0.06;
+        flapVelocity = -2;
         up = loadImage("assets/Purple Up.png");
         middle = loadImage("assets/Purple Middle.png");
         down = loadImage("assets/Purple Down.png");
