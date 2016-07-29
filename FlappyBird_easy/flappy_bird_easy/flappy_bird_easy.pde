@@ -45,7 +45,7 @@ public class Bird {
     PImage[] imageStates;
     float x, y;
     float flapProgress;
-    float flapSpeed = 0.2;
+    float flapSpeed = 0.4;
     float yVelocity;
     float yAcceleration;
     float flapVelocity;

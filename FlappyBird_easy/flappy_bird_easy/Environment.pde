@@ -103,7 +103,7 @@ public class Environment {
       }
       font = loadFont("CalistoMT-32.vlw");
       textFont(font);
-      text(tubesPassed/43,10,30);
+      text(tubesPassed/34,10,30);
       fill(255,255,255);
     }
   }
