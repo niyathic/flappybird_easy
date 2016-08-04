@@ -31,7 +31,7 @@ public class Environment {
     PImage imgTop;
     PImage imgBottom;
     float x;
-    float gapHeight = 100;
+    float gapHeight = 120;
     float startTick;
     float gapTopY;
 
